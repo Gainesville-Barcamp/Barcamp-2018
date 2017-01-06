@@ -1,14 +1,6 @@
 # Ignore Mac files
 .DS_Store
 
-# Ignore compiled assets
-assets/images/*
-assets/javascripts/*
-assets/stylesheets/*
-
-# Ignore output css
-css/*.map
-
 # Ignore node modules
 node_modules
 npm-debug.log
@@ -23,13 +15,3 @@ bower_components
 scss/_*.scss
 
 # Ignore tmp directory
-
-tmp/
-tmp/*
-code.html
-contact.html
-faq.html
-index.html
-prospectus.html
-sessions.html
-sponsors.html
