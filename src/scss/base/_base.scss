@@ -39,7 +39,7 @@ img {
   height: auto;
 }
 .clearfix {
-  @extend %clearfix;
+  @include clearfix;
 }
 section {
   clear: both;
