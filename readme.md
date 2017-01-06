@@ -9,3 +9,8 @@
 1. Create a feature branch
 2. Push it up
 3. Create a pull request. [Hub](https://hub.github.com/) can make this process pretty easy.
+
+
+## How to commit deploy
+1. Commit directly to `master`.
+2. From the root directory, run `./deploy.sh`. Be the deploy script is executable (by running `chmod +x deploy.sh`).
