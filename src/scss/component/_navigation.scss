@@ -51,10 +51,11 @@ $nav-break: $tablet_wide;
   max-width: 350px;
   margin: 0;
   padding: 0;
-  z-index: -1;
   perspective: 500px;
   transition: z-index .2s;
   transition-delay: .4s;
+
+  display: none;
   @include breakpoint($nav-break) {
     perspective: none;
     background: transparent;
@@ -63,7 +64,6 @@ $nav-break: $tablet_wide;
     width: auto;
     max-width: none;
     @include center(none);
-    z-index: 100;
   }
   // Add a top margin to the nav for iphone4s
   @media (max-device-height: 500px) {
@@ -73,6 +73,7 @@ $nav-break: $tablet_wide;
     z-index: 100;
     transition: none;
     transition-delay: 0;
+    display: block;
   }
 }
 .menu-item {
@@ -146,7 +147,7 @@ $nav-break: $tablet_wide;
     padding: 0 25px;
     transition: line-height .2s;
     .js-scrolled & {
-      line-height: $header-height-small; 
+      line-height: $header-height-small;
     }
   }
   // Adjust line height based on screen height
