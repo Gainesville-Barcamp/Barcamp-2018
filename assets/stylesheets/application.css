@@ -1259,10 +1259,10 @@ blockquote {
   max-width: 350px;
   margin: 0;
   padding: 0;
-  z-index: -1;
   perspective: 500px;
   transition: z-index .2s;
-  transition-delay: .4s; }
+  transition-delay: .4s;
+  display: none; }
   @media (min-width: 900px) {
     .menu {
       perspective: none;
@@ -1274,15 +1274,15 @@ blockquote {
       max-width: none;
       top: auto;
       left: auto;
-      transform: translate(0, 0);
-      z-index: 100; } }
+      transform: translate(0, 0); } }
   @media (max-device-height: 500px) {
     .menu {
       margin-top: 30px; } }
   .menu.js-nav-active {
     z-index: 100;
     transition: none;
-    transition-delay: 0; }
+    transition-delay: 0;
+    display: block; }
 
 .menu-item {
   position: relative;
