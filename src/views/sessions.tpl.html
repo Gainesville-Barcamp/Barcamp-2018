@@ -12,13 +12,73 @@
           session! Remember, sessions aren't limited to just "talks," it can be
           a presentation, panel or discussion group.
         </p>
-        <p>Want to give a featured session? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmXEtFY0Ux8-TMJxHs2XvN81_uf0f_CwinMuqsK7oUN4b-Sw/viewform" target="_blank">Contact us</a>!</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmXEtFY0Ux8-TMJxHs2XvN81_uf0f_CwinMuqsK7oUN4b-Sw/viewform" target="_blank" class="button">Give a Featured Talk</a>
       </div>
       <div class="sessions-grid">
-        Sessions coming soon! 
+        <div class="sessions-grid-sizer"></div>
+        <div class="session">
+          <div class="session__speaker-image jessica" title="Jessica Roux">
+            <span class="banner session__banner">CREATIVE</span>
+          </div>
+          <h3 class="session__title">
+            An Illustrated Life
+            <small class="session__speaker-name">Jessica Roux</small>
+          </h3>
+          <p class="session__desc">
+            Local freelance illustrator Jessica Roux explains the importance of
+            drawing what she loves, and how it has led to a successful creative career.
+            Jessica's work, with a focus on flora and fauna, has appeared in the New Yorker,
+            Smithsonian Magazine, The New York Times, Taproot Magazine, and many other publications.
+             <br>
+             <a href="https://www.jessica-roux.com/" target="_blank">Jessica Roux Illustration</a>
+          </p>
+        </div>
+        <div class="session">
+          <div class="session__speaker-image david" title="David Nordstedt">
+            <span class="banner session__banner">TECHNOLOGY</span>
+          </div>
+          <h3 class="session__title">
+            Beacons in the Wild
+            <small class="session__speaker-name">David Nordstedt</small>
+          </h3>
+          <p class="session__desc">
+            What is a Bluetooth Beacon? What is Geomarketing? Find out how you
+            can create your own personal brand on the web, have others
+            know when you are nearby, and do it all with technology you already own.
+            Check out Google's Physical Web and Nearby service to get a head start on this talk.
+            Install Chrome on your phone and enable the Physical Web under
+            Privacy and Settings to have a more interactive experience.
+          </p>
+        </div>
+        <div class="session">
+          <div class="session__speaker-image iryna" title="Iryna Kanishcheva">
+            <span class="banner session__banner">CREATIVE</span>
+          </div>
+          <h3 class="session__title">
+            Murals and communities
+            <small class="session__speaker-name">Iryna Kanishcheva</small>
+          </h3>
+          <p class="session__desc">
+            Iryna Kanishcheva will be discussing her current urban art project Grove Street Neighborhood
+            which brings together Gainesville residents and regional artists.
+            She'll compare this effort to her work on the 352walls/The Gainesville Urban Art Initiative,
+            as well as her urban art project Art United Us which is underway Ukraine.
+            <br>
+            <a href="http://gnvurbanart.com/" target="_blank">Gnvurbanart.com</a>
+          </p>
+        </div>
       </div>
     </section>
     @@include('_sponsors-footer.html')
     @@include('_footer.html')
+    <script src="assets/javascripts/masonry.min.js"></script>
+    <script type="text/javascript">
+      var elem = document.querySelector('.sessions-grid');
+      var msnry = new Masonry( elem, {
+        itemSelector: '.session',
+        columnWidth: '.sessions-grid-sizer',
+        gutter: 0
+      });
+    </script>
   </body>
 </html>
