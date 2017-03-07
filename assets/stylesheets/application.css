@@ -550,15 +550,15 @@ blockquote {
   text-transform: uppercase;
   color: white; }
   @media (min-width: 650px) {
-
+    
     .banner {
       margin-bottom: 10px; } }
   @media (min-width: 1600px) {
-
+    
     .banner {
       font-size: 22px;
       line-height: 32px; } }
-
+  
   .banner:after {
     content: "";
     height: 0;
@@ -569,7 +569,7 @@ blockquote {
     border-bottom: 30px solid transparent;
     border-left: 12px solid #353A47; }
     @media (min-width: 1600px) {
-
+      
       .banner:after {
         border-bottom: 32px solid transparent;
         border-left: 12.8px solid #353A47; } }
@@ -585,16 +585,16 @@ blockquote {
   padding: 10px 25px;
   text-transform: uppercase;
   transition: background .2s; }
-
+  
   .button:hover {
     background: #e60a2f; }
   @media (min-width: 480px) {
-
+    
     .button {
       line-height: 55px;
       padding: 0 25px; } }
   @media (min-width: 1600px) {
-
+    
     .button {
       font-size: 35px;
       line-height: 75px;
@@ -605,13 +605,13 @@ blockquote {
     .content
     .button:hover {
       color: white; }
-
+  
   .button.medium {
     line-height: 45px;
     font-size: 18px;
     padding: 0 20px; }
   @media (min-width: 1100px) {
-
+    
     .button.right {
       float: right; } }
 
@@ -1461,68 +1461,76 @@ blockquote {
   @media (min-width: 1100px) {
     .session {
       width: calc(33% - 10px); } }
-  .session__speaker-image {
-    position: relative;
-    width: 100%;
-    height: 300px; }
-    .session__speaker-image.jessica {
-      background: #eee url("../../assets/images/speakers/jessica-roux.jpg") no-repeat;
-      background-position-y: -35px;
-      background-size: cover; }
-    .session__speaker-image.david {
-      background: #eee url("../../assets/images/speakers/david-nordstedt.jpg") no-repeat;
-      background-position-y: -40px;
-      background-size: cover; }
-    .session__speaker-image.iryna {
-      background: #eee url("../../assets/images/speakers/iryna-kanishcheva.jpg") no-repeat;
-      background-size: cover; }
-  .session__title {
-    position: relative;
-    text-align: center;
-    display: block;
-    padding: 5px 10px 10px 10px;
-    font-size: 22px;
-    line-height: 1.25;
-    font-family: futura, helvetica, arial, sans-serif;
-    border-bottom: 1px solid #f4f4f4;
-    z-index: 1; }
-    .session__title:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: -25px;
-      height: 50px;
-      width: 100%;
-      display: block;
-      background: #fff;
-      z-index: -1;
-      transform: skew(0deg, -5deg); }
-  .session__speaker-name {
-    display: block;
-    font-size: 20px;
-    font-family: "pt_serifregular", serif;
-    font-style: italic;
-    color: #bbb; }
-  .session__desc {
-    margin: 0;
-    padding: 10px 15px 15px 15px;
-    font-size: 18px;
-    line-height: 1.25;
-    font-family: futura, helvetica, arial, sans-serif;
-    text-align: left;
-    color: #666; }
-  .session__banner {
+
+.session__speaker-image {
+  position: relative;
+  width: 100%;
+  height: 300px; }
+  .session__speaker-image.jessica {
+    background: #eee url("../../assets/images/speakers/jessica-roux.jpg") no-repeat;
+    background-position-y: -35px;
+    background-size: cover; }
+  .session__speaker-image.david {
+    background: #eee url("../../assets/images/speakers/david-nordstedt.jpg") no-repeat;
+    background-position-y: -40px;
+    background-size: cover; }
+  .session__speaker-image.iryna {
+    background: #eee url("../../assets/images/speakers/iryna-kanishcheva.jpg") no-repeat;
+    background-size: cover; }
+  .session__speaker-image.eran {
+    background: #eee url("../../assets/images/speakers/eran-schoellhorn.jpg") no-repeat;
+    background-size: cover; }
+
+.session__title {
+  position: relative;
+  text-align: center;
+  display: block;
+  padding: 5px 10px 10px 10px;
+  font-size: 22px;
+  line-height: 1.25;
+  font-family: futura, helvetica, arial, sans-serif;
+  border-bottom: 1px solid #f4f4f4;
+  z-index: 1; }
+  .session__title:before {
+    content: "";
     position: absolute;
-    top: 0;
     left: 0;
-    margin: 0;
-    background: #F62D4F;
-    font-size: 12px;
-    height: 28px;
-    line-height: 28px;
-    text-transform: uppercase; }
-    .session__banner:after {
-      display: none; }
+    top: -25px;
+    height: 50px;
+    width: 100%;
+    display: block;
+    background: #fff;
+    z-index: -1;
+    transform: skew(0deg, -5deg); }
+
+.session__speaker-name {
+  display: block;
+  font-size: 20px;
+  font-family: "pt_serifregular", serif;
+  font-style: italic;
+  color: #bbb; }
+
+.session__desc {
+  margin: 0;
+  padding: 10px 15px 15px 15px;
+  font-size: 18px;
+  line-height: 1.25;
+  font-family: futura, helvetica, arial, sans-serif;
+  text-align: left;
+  color: #666; }
+
+.session__banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background: #F62D4F;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  text-transform: uppercase; }
+  .session__banner:after {
+    display: none; }
 
 .sponsors-button {
   position: relative;
