@@ -91,6 +91,11 @@
       @include background-size(cover);
     }
 
+    &.eran {
+      background: #eee url('../../assets/images/speakers/eran-schoellhorn.jpg') no-repeat;
+      @include background-size(cover);
+    }
+
   }
 
   &__title {
