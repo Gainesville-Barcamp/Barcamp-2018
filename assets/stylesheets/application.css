@@ -1480,6 +1480,10 @@ blockquote {
   .session__speaker-image.eran {
     background: #eee url("../../assets/images/speakers/eran-schoellhorn.jpg") no-repeat;
     background-size: cover; }
+  .session__speaker-image.dennis {
+    background: #eee url("../../assets/images/speakers/dennis-pelton.jpg") no-repeat;
+    background-position-y: -25px;
+    background-size: cover; }
   .session__speaker-image.martin {
     background: #eee url("../../assets/images/speakers/martin-smith.jpg") no-repeat;
     background-position-y: -25px;
