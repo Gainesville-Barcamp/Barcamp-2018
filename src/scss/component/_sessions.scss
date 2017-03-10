@@ -111,6 +111,12 @@
     @include background-size(cover);
   }
 
+  &.aaron {
+    background: #eee url('../../assets/images/speakers/aaron-dixon.jpeg') no-repeat;
+    background-position-y: -25px;
+    @include background-size(cover);
+  }
+
 }
 
 .session__title {
