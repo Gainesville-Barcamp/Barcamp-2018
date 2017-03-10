@@ -1488,6 +1488,10 @@ blockquote {
     background: #eee url("../../assets/images/speakers/martin-smith.jpg") no-repeat;
     background-position-y: -25px;
     background-size: cover; }
+  .session__speaker-image.aaron {
+    background: #eee url("../../assets/images/speakers/aaron-dixon.jpeg") no-repeat;
+    background-position-y: -25px;
+    background-size: cover; }
 
 .session__title {
   position: relative;
