@@ -1492,6 +1492,9 @@ blockquote {
     background: #eee url("../../assets/images/speakers/aaron-dixon.jpeg") no-repeat;
     background-position-y: -25px;
     background-size: cover; }
+  .session__speaker-image.matt {
+    background: #eee url("../../assets/images/speakers/matt-steel.jpg") no-repeat;
+    background-size: cover; }
 
 .session__title {
   position: relative;
