@@ -2,6 +2,7 @@
 ## To install
 1. Clone the repository
 2. Run `npm install`
+3. Install Gulp globally: `npm install gulp-cli -g`
 3. Run `gulp`
 4. Start editing shit.
 
@@ -13,4 +14,4 @@
 
 ## How to commit deploy
 1. Commit directly to `master`.
-2. From the root directory, run `./deploy.sh`. Be the deploy script is executable (by running `chmod +x deploy.sh`).
+2. From the root directory, run `./deploy.sh`. Be sure the deploy script is executable (by running `chmod +x deploy.sh`).
