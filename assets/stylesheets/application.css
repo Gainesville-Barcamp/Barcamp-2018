@@ -1466,34 +1466,9 @@ blockquote {
   position: relative;
   width: 100%;
   height: 300px; }
-  .session__speaker-image.jessica {
-    background: #eee url("../../assets/images/speakers/jessica-roux.jpg") no-repeat;
+  .session__speaker-image.richard {
+    background: #eee url("../../assets/images/speakers/richard-ruth.jpg") no-repeat;
     background-position-y: -35px;
-    background-size: cover; }
-  .session__speaker-image.david {
-    background: #eee url("../../assets/images/speakers/david-nordstedt.jpg") no-repeat;
-    background-position-y: -40px;
-    background-size: cover; }
-  .session__speaker-image.iryna {
-    background: #eee url("../../assets/images/speakers/iryna-kanishcheva.jpg") no-repeat;
-    background-size: cover; }
-  .session__speaker-image.eran {
-    background: #eee url("../../assets/images/speakers/eran-schoellhorn.jpg") no-repeat;
-    background-size: cover; }
-  .session__speaker-image.dennis {
-    background: #eee url("../../assets/images/speakers/dennis-pelton.jpg") no-repeat;
-    background-position-y: -25px;
-    background-size: cover; }
-  .session__speaker-image.martin {
-    background: #eee url("../../assets/images/speakers/martin-smith.jpg") no-repeat;
-    background-position-y: -25px;
-    background-size: cover; }
-  .session__speaker-image.aaron {
-    background: #eee url("../../assets/images/speakers/aaron-dixon.jpeg") no-repeat;
-    background-position-y: -25px;
-    background-size: cover; }
-  .session__speaker-image.matt {
-    background: #eee url("../../assets/images/speakers/matt-steel.jpg") no-repeat;
     background-size: cover; }
 
 .session__title {
