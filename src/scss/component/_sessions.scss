@@ -83,6 +83,11 @@
     @include background-size(cover);
   }
 
+  &.iryna {
+    background: #eee url('../../assets/images/speakers/iryna-kanishcheva.jpg') no-repeat;
+    background-position-x: -25px;
+    @include background-size(cover);
+  }
 
 
 }
