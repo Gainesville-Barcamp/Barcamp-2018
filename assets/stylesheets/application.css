@@ -1470,6 +1470,10 @@ blockquote {
     background: #eee url("../../assets/images/speakers/richard-ruth.jpg") no-repeat;
     background-position-y: -35px;
     background-size: cover; }
+  .session__speaker-image.iryna {
+    background: #eee url("../../assets/images/speakers/iryna-kanishcheva.jpg") no-repeat;
+    background-position-x: -25px;
+    background-size: cover; }
 
 .session__title {
   position: relative;
