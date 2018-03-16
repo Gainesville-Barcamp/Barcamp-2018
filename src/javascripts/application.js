@@ -22,26 +22,22 @@ function removeNav() {
   overlay.classList.remove('js-active');
 }
 
-window.onload = function() {
-  if (mapCover) {
-    mapCover.addEventListener( 'click' , enableMapMove );
-  }
 
-  if (navIcon) {
-    navIcon.addEventListener('click', toggleNav);
-    navIcon.addEventListener('touchstart', toggleNav);
-  }
+if (navIcon) {
+  navIcon.addEventListener('click', toggleNav);
+  navIcon.addEventListener('touchstart', toggleNav);
+}
 
-  // Make sure the nav disappears when jumping to an anchor
-  if (anchorLink) {
-    anchorLink.addEventListener('click', removeNav);
-  }
+// Make sure the nav disappears when jumping to an anchor
+if (anchorLink) {
+  anchorLink.addEventListener('click', removeNav);
+}
 
-  // Make sure the nav disappears when navigating to external page
-  if (extLink) {
-    extLink.addEventListener('click', removeNav);
-  }
-};
+// Make sure the nav disappears when navigating to external page
+if (extLink) {
+  extLink.addEventListener('click', removeNav);
+}
+
 
 // Add a class to the header when scrolled down 100px
 var scrollElement = document.querySelector('.header');
