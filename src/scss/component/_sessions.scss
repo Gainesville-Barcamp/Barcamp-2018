@@ -89,6 +89,11 @@
     @include background-size(cover);
   }
 
+  &.david {
+    background: #eee url('../../assets/images/speakers/david-nordstedt.jpg') no-repeat;
+    @include background-size(cover);
+  }
+
 
 }
 
@@ -133,6 +138,11 @@
   font-family: $font-sans;
   text-align: left;
   color: #666;
+
+  a {
+    word-wrap:break-word;
+  }
+
 }
 
 .session__banner {
