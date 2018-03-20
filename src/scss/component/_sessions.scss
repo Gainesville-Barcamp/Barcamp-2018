@@ -95,6 +95,13 @@
   }
 
 
+  &.john {
+    background: #eee url('../../assets/images/speakers/john-tucker.jpg') no-repeat center;
+    background-position-y: -10px;
+    @include background-size(cover);
+  }
+
+
 }
 
 .session__title {
