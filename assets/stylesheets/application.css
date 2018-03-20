@@ -1477,6 +1477,10 @@ blockquote {
   .session__speaker-image.david {
     background: #eee url("../../assets/images/speakers/david-nordstedt.jpg") no-repeat;
     background-size: cover; }
+  .session__speaker-image.john {
+    background: #eee url("../../assets/images/speakers/john-tucker.jpg") no-repeat center;
+    background-position-y: -10px;
+    background-size: cover; }
 
 .session__title {
   position: relative;
