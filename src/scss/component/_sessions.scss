@@ -94,9 +94,14 @@
     @include background-size(cover);
   }
 
-
   &.john {
     background: #eee url('../../assets/images/speakers/john-tucker.jpg') no-repeat center;
+    background-position-y: -10px;
+    @include background-size(cover);
+  }
+
+  &.jenn {
+    background: #eee url('../../assets/images/speakers/jenn-edge.jpg') no-repeat center;
     background-position-y: -10px;
     @include background-size(cover);
   }
