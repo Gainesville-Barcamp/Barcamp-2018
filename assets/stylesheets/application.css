@@ -1481,6 +1481,10 @@ blockquote {
     background: #eee url("../../assets/images/speakers/john-tucker.jpg") no-repeat center;
     background-position-y: -10px;
     background-size: cover; }
+  .session__speaker-image.jenn {
+    background: #eee url("../../assets/images/speakers/jenn-edge.jpg") no-repeat center;
+    background-position-y: -10px;
+    background-size: cover; }
 
 .session__title {
   position: relative;
