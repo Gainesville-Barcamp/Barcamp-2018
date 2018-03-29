@@ -1485,6 +1485,9 @@ blockquote {
     background: #eee url("../../assets/images/speakers/jenn-edge.jpg") no-repeat center;
     background-position-y: -10px;
     background-size: cover; }
+  .session__speaker-image.duncan {
+    background: #eee url("../../assets/images/speakers/duncan-kabinu.jpg") no-repeat center;
+    background-size: cover; }
 
 .session__title {
   position: relative;
