@@ -108,7 +108,16 @@
 
   &.duncan {
     background: #eee url('../../assets/images/speakers/duncan-kabinu.jpg') no-repeat center;
-    // background-position-y: px;
+    @include background-size(cover);
+  }
+
+  &.diego {
+    background: #eee url('../../assets/images/speakers/diego-de-la-hoz.jpg') no-repeat;
+    @include background-size(cover);
+  }
+
+  &.jen-ford {
+    background: #eee url('../../assets/images/speakers/jen-ford.jpg') no-repeat;
     @include background-size(cover);
   }
 
