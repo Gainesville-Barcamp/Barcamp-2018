@@ -1488,6 +1488,12 @@ blockquote {
   .session__speaker-image.duncan {
     background: #eee url("../../assets/images/speakers/duncan-kabinu.jpg") no-repeat center;
     background-size: cover; }
+  .session__speaker-image.diego {
+    background: #eee url("../../assets/images/speakers/diego-de-la-hoz.jpg") no-repeat;
+    background-size: cover; }
+  .session__speaker-image.jen-ford {
+    background: #eee url("../../assets/images/speakers/jen-ford.jpg") no-repeat;
+    background-size: cover; }
 
 .session__title {
   position: relative;
