@@ -121,6 +121,11 @@
     @include background-size(cover);
   }
 
+  &.kathy {
+    background: #eee url('../../assets/images/speakers/kathy-sohar.jpg') no-repeat;
+    @include background-size(cover);
+  }
+
 }
 
 .session__title {
