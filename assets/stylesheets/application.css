@@ -1494,6 +1494,9 @@ blockquote {
   .session__speaker-image.jen-ford {
     background: #eee url("../../assets/images/speakers/jen-ford.jpg") no-repeat;
     background-size: cover; }
+  .session__speaker-image.kathy {
+    background: #eee url("../../assets/images/speakers/kathy-sohar.jpg") no-repeat;
+    background-size: cover; }
 
 .session__title {
   position: relative;
