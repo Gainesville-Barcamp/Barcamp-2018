@@ -1497,6 +1497,10 @@ blockquote {
   .session__speaker-image.kathy {
     background: #eee url("../../assets/images/speakers/kathy-sohar.jpg") no-repeat;
     background-size: cover; }
+  .session__speaker-image.usha {
+    background: #eee url("../../assets/images/speakers/usha-suryadevara.jpg") no-repeat;
+    background-position-y: 50%;
+    background-size: cover; }
 
 .session__title {
   position: relative;
