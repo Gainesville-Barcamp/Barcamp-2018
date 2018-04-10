@@ -126,6 +126,14 @@
     @include background-size(cover);
   }
 
+  &.usha {
+    background: #eee url('../../assets/images/speakers/usha-suryadevara.jpg') no-repeat;
+    background-position-y: 50%;
+    @include background-size(cover);
+  }
+
+
+
 }
 
 .session__title {
