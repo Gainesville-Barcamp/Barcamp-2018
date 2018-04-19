@@ -1340,24 +1340,24 @@ blockquote {
       color: #353A47;
       line-height: 80px;
       display: inline-block;
-      padding: 0 15px; }
+      padding: 0 15px;
+      font-size: 16px; }
       .menu-item-link:hover, .menu-item-link:focus {
         background: transparent;
         color: white; } }
   @media (min-width: 1100px) {
     .menu-item-link {
-      padding: 0 25px;
+      padding: 0 20px;
       transition: line-height .2s; }
       .js-scrolled .menu-item-link {
         line-height: 60px; } }
   @media (min-height: 500px) and (max-width: 900px) {
     .menu-item-link {
       line-height: 55px;
-      font-size: 25px; } }
+      font-size: 20px; } }
   @media (min-height: 700px) and (max-width: 900px) {
     .menu-item-link {
-      line-height: 80px;
-      font-size: 30px; } }
+      line-height: 80px; } }
 
 /**
  * Overlay
