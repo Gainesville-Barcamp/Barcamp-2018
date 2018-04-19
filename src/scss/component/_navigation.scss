@@ -137,6 +137,7 @@ $nav-break: $tablet_wide;
     line-height: $header-height;
     display: inline-block;
     padding: 0 15px;
+    font-size: 16px;
     &:hover,
     &:focus {
       background: transparent;
@@ -144,7 +145,7 @@ $nav-break: $tablet_wide;
     }
   }
   @include breakpoint($normal) {
-    padding: 0 25px;
+    padding: 0 20px;
     transition: line-height .2s;
     .js-scrolled & {
       line-height: $header-height-small;
@@ -153,10 +154,9 @@ $nav-break: $tablet_wide;
   // Adjust line height based on screen height
   @media (min-height: 500px) and (max-width: $nav-break) {
     line-height: 55px;
-    font-size: 25px;
+    font-size: 20px;
   }
   @media (min-height: 700px) and (max-width: $nav-break) {
     line-height: 80px;
-    font-size: 30px;
   }
 }
