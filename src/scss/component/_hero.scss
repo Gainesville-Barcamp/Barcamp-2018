@@ -72,3 +72,14 @@
     top: calc(100% - 50px);
   }
 }
+
+.hero-thanks {
+  position: absolute;
+  margin: 0;
+  @include center(x);
+  bottom: 8%;
+  text-align: center;
+  max-width: 1400px;
+  color: #fff;
+  line-height: 1.2;
+}
